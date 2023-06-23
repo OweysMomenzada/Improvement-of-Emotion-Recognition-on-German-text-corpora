@@ -1,1 +1,1 @@
-# Improvement-of-Emotion-Recognition-on-German-text-corpora
+# Improvement of Emotion Recognition on German text corpora

@@ -1,0 +1,4 @@
+deep-translator==1.11.1
+nltk==3.8.1
+pandas==2.0.2
+numpy==1.24.3

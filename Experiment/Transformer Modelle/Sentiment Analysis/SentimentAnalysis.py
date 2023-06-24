@@ -1,13 +1,6 @@
-import pandas as pd
-from numpy import array, argmax
 import numpy as np
 
 import tensorflow as tf
-from tensorflow.keras.utils import to_categorical
-
-from sklearn.model_selection import train_test_split
-from sklearn.utils import shuffle
-from sklearn.preprocessing import LabelEncoder
 from transformers import AutoTokenizer, TFAutoModel
 
 tokenizer = AutoTokenizer.from_pretrained("dbmdz/bert-base-german-uncased")

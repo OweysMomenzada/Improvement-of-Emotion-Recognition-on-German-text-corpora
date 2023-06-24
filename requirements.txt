@@ -1,0 +1,8 @@
+pandas==2.0.2
+numpy==1.24.3
+scikit-learn==1.2.2
+transformers==4.30.2
+gensim==4.3.1 
+openai==0.27.8
+langchain==0.0.212
+tensorflow

@@ -7,7 +7,7 @@ tokenizer = AutoTokenizer.from_pretrained("dbmdz/bert-base-german-uncased")
 bert = TFAutoModel.from_pretrained("dbmdz/bert-base-german-uncased")
 
 max_length=100
-path = "/content/gdrive/MyDrive/Experiment/Transformer Modelle/Sentiment Analysis/model/cp.ckpt"
+path = "/content/gdrive/MyDrive/Experiment/Transformer Models/Sentiment Analysis/model/cp.ckpt"
 
 class EmotionModel:
   def __init__(self):
@@ -15,6 +15,9 @@ class EmotionModel:
     
     
   def emotion_model(self):
+    """
+    Define emotion model 
+    """
     input_ids=tf.keras.layers.Input(shape=(max_length,),name='input_ids',dtype='int32')
     input_mask=tf.keras.layers.Input(shape=(max_length,),name='attention_mask',dtype='int32')
     

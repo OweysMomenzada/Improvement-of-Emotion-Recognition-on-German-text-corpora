@@ -1,6 +1,6 @@
 # Experiments
 
-Here, you can run the experiments and reproduce the results shown in the master thesis.
+Here, you can run the experiments and reproduce the results shown in the paper.
 
 ### Setup
 Please install Jupyter Notebook based on [Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html
@@ -20,10 +20,10 @@ Here is a short description and overview of the datasets:
 - `translated_fullset.csv`: Full dataset for the German and English emotion dataset **without** data based on Weak Supervision.
 
 ### Experiment overview
-Each experiment has a reference to the relevant section of the master thesis. However, here is a short description and overview of the directories and experiments:
+Each experiment has a reference to the relevant section of the paper. However, here is a short description and overview of the directories and experiments:
 
-- `ML Models`: Only has one notebook which includes the training and evaluation of all traditional Machine Learning models used in the master thesis.
-- `DL models (with TL)`: This directory includes the training and evaluation of all Deep Learning models (additionally with Transfer Learning) used in the master thesis.
+- `ML Models`: Only has one notebook which includes the training and evaluation of all traditional Machine Learning models used in the paper.
+- `DL models (with TL)`: This directory includes the training and evaluation of all Deep Learning models (additionally with Transfer Learning) used in the paper.
 - `Transformer Models`: This directory includes all experiments which utilized the BERT model.
     * `German BERT.ipynb`: Notebook which evaluates and trains the German BERT model based on the German final emotion dataset with the data based on Weak Supervision.
     * `Multilingual BERT`:  Notebook which evaluates and trains the Multilingual BERT model based on the German final emotion dataset with the data based on Weak Supervision.

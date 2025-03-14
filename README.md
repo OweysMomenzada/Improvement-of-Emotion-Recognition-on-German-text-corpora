@@ -1,8 +1,6 @@
-### Instead of using the README, you can also directly visit the GitHub page, which includes the same content as this storage device.
+# Domain-generalized emotion recognition on German text corpora
 
-# Improvement of Emotion Recognition on German text corpora
-
-The content of this project will be divided into three sections: 
+The content of this project is a reference to the paper "Domain-generalized emotion recognition on German text corpora" and will be divided into three sections: 
 - A simplified implementation of how to create the data similar to the final dataset of this thesis (see `Data collecting` folder).
 - All experiments conducted for the paper (see `Experiment` folder).
 - Implementation of the ER System (see `src/` folder).

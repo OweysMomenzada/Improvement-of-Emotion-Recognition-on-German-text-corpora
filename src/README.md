@@ -1,6 +1,6 @@
-# Implementation of the ER System
+# Domain-generalized emotion recognition on German text corpora | Implementation
 
-Here, you can run the ER system on your own machine. The chosen parameters and setups were based on the investigations conducted (see `./Experiment/` folder).
+The chosen parameters and setups were based on the investigations conducted (see `./Experiment/` folder). This implementation, thus, has been chosen as one of the appropriate setups to implement the approach proposed in our paper.
 
 ### Setup
 To get started, please install Python 3.8 or higher. Next, create a new Python environment and install all dependencies by running the following command:
